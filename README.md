@@ -65,10 +65,16 @@ I found that looking at seasonality score does not necessarily show the whole pi
 
 ## Dependencies / Requirements
 pandas
+
 numpy
+
 matplotlib
+
 plotly
+
 dash
+
 statsmodels
+
 scipy
 
