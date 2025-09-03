@@ -32,10 +32,17 @@ One excel file including the columns:
           - Residual – what’s left over after removing trend and seasonality (noise or irregular fluctuations).
       The seasonal component is then graphed.
       -**Fourier Transformation** detrends the monthly revenue, converts the time series from the time domain to frequency domain, breaks revenue into waves, and tells you which waves dominate
-3. **ACF Graphing**
-  - Visual investigation of key sectors 
+3. **Visual Analysis**
+  - Visual investigation of key sectors and looking at how the seasonality can be represented by graphing.
 
 ## Results / Visualizations
+
+1. Autocorrelation Function
+The ACF Graphs of the top 9 seasonality score categories yielded several interesting results. These categories were picked by subtracting the autocorrelation at the 12 month interval by the value at 6 months. This is a short-hand way of determining the companies with the largest difference in 6 month and 12 month revenue, thereby making them good candidates for high seasonality. I then graphed the 1-12 month autocorrelation for these top categories and visually inspected them.
+
+![Visual](visualizations/ACF_comparative.png)
+
+This graph depicts different sectors and the relationship between the revenue they currently generate and how much revenue they have generated in past months. If there is a high autocorrelation in say, company_size = Small in the 12 month range, that means that revenue for a any given month is highly correlated to revenue 12 months ago. Likewise, if the 6 month range has a low autocorrelation, that means that revenue for a given month has a very low correlation to revenue 6 months ago. Highly seasonal categories will have these dips in autocorrelation followed by a rise. 
 
 ## Insights / Conclusions
 
