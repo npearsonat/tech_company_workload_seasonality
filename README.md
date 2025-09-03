@@ -31,7 +31,7 @@ One excel file including the columns:
           - Seasonal – the repeating pattern within each period (e.g., months of a year).
           - Residual – what’s left over after removing trend and seasonality (noise or irregular fluctuations).
       The seasonal component is then graphed.
-      -**Fourier Transformation** detrends the monthly revenue, converts the time series from the time domain to frequency domain, breaks revenue into waves, and tells you which waves dominate
+    - **Fourier Transformation** detrends the monthly revenue, converts the time series from the time domain to frequency domain, breaks revenue into waves, and tells you which waves dominate
 3. **Visual Analysis**
   - Visual investigation of key sectors and looking at how the seasonality can be represented by graphing.
 
