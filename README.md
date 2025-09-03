@@ -37,7 +37,7 @@ One excel file including the columns:
 
 ## Results / Visualizations
 
-1. Autocorrelation Function
+### Autocorrelation Function
 The ACF Graphs of the top 9 seasonality score categories yielded several interesting results. These categories were picked by subtracting the autocorrelation at the 12 month interval by the value at 6 months. This is a short-hand way of determining the companies with the largest difference in 6 month and 12 month revenue, thereby making them good candidates for high seasonality. I then graphed the 1-12 month autocorrelation for these top categories and visually inspected them.
 
 ![Visual](visualizations/ACF_comparative.png)
