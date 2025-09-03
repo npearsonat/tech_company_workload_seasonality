@@ -45,6 +45,16 @@ The graphed categories were picked by subtracting the autocorrelation at the 12 
 
 This graph depicts different sectors and the relationship between the revenue they currently generate and how much revenue they have generated in past months. If there is a high autocorrelation in say, company_size = Small in the 12 month range, that means that revenue for a any given month is highly correlated to revenue 12 months ago. Likewise, if the 6 month range has a low autocorrelation, that means that revenue for a given month has a very low correlation to revenue 6 months ago. Highly seasonal categories will have these dips in autocorrelation followed by a rise. 
 
+### Seasonal Decomposition
+Seasonal decomposistion is a visualization of the seasonal componenent separated from the trend and the residual componenents of revenue. These graphs show the month to month revenue trends in a variety of categories separated out from the overall upward revenue trend.
+
+![Visual](visualizations/seasonal_decomposition.png)
+
+### Fourier Transformations
+Fourier Transformations help visualize the monthly revenue cycles. The x-axis represents cycles per unit time. Full 12 month cycles would be represented by around 0.083 on the x-axis (1/12 = 0.083). The shorter trends, a greater number of cycles per unit time, will be represented by the further off values. The power represents the strength of that frequency component. 
+
+![Visual](visualizations/fourier_transformations.png)
+
 ## Insights / Conclusions
 
 ## Dependencies / Requirements
