@@ -48,7 +48,7 @@ This graph depicts different sectors and the relationship between the revenue th
 ### Seasonal Decomposition
 Seasonal decomposistion is a visualization of the seasonal componenent separated from the trend and the residual componenents of revenue. These graphs show the month to month revenue trends in a variety of categories separated out from the overall upward revenue trend.
 
-![Visual](visualizations/seasonal_decomposition.png)
+![Visual](visualizations/seasonal_decomposition_fix.png)
 
 ### Fourier Transformations
 Fourier Transformations help visualize the monthly revenue cycles. The x-axis represents cycles per unit time. Full 12 month cycles would be represented by around 0.083 on the x-axis (1/12 = 0.083). The shorter trends, a greater number of cycles per unit time, will be represented by the further off values. The power represents the strength of that frequency component. 
