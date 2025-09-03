@@ -23,6 +23,7 @@ One excel file including the columns:
     - **Autocorrelation Function ACF** captures similarity between a time series and a lagged version of itself over successive intervals time intervals. It calculates the correlation between two different versions of the same time series.
 
 ![Visual](visualizations/autocorrelation_function.png)
+- test
 
     - **Seasonality Score** calculates ACF for series and returns correlation at lag 12, symbolizing an annual pattern. 
 3. **ACF Graphing**
