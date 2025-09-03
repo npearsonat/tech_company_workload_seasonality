@@ -20,11 +20,11 @@ One excel file including the columns:
 
 1. **Feature Engineering**: Created customer_category column to sort customers into different sectors. Created multiple columns sorting projects into categories like small/medium/large, days since last project, project category, etc.
 2. **Statistical Analysis**:
-  - **Autocorrelation Function ACF** captures similarity between a time series and a lagged version of itself over successive intervals time intervals. It calculates the correlation between two different versions of the same time series.
+    - **Autocorrelation Function ACF** captures similarity between a time series and a lagged version of itself over successive intervals time intervals. It calculates the correlation between two different versions of the same time series.
 
 ![Visual](visualizations/autocorrelation_function.png)
 
-- **Seasonality Score** calculates ACF for series and returns correlation at lag 12, symbolizing an annual pattern. 
+    - **Seasonality Score** calculates ACF for series and returns correlation at lag 12, symbolizing an annual pattern. 
 3. **ACF Graphing**
   - Visual investigation of key sectors 
 
