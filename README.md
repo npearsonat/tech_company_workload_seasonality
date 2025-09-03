@@ -20,6 +20,7 @@ One excel file including the columns:
 
 1. **Feature Engineering**: Created customer_category column to sort customers into different sectors. Created multiple columns sorting projects into categories like small/medium/large, days since last project, project category, etc.
 2. **Statistical Analysis**:
+    - **Detrending** uses a 12-month rolling average to calculate the trend. The detrended revenue is the original revenue minus the trend.
     - **Autocorrelation Function ACF** captures similarity between a time series and a lagged version of itself over successive intervals time intervals. It calculates the correlation between two different versions of the same time series.
 
 ![Visual](visualizations/autocorrelation_function.png)
