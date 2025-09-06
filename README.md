@@ -57,7 +57,7 @@ Fourier Transformations help visualize the monthly revenue cycles. The x-axis re
 
 ## Insights / Conclusions
 
-I found that looking at seasonality score does not necessarily show the whole picture. However, due to the number of categories and sectors being looked at, it was necessary to narrow down the number of graphs. 
+I found that looking at seasonality score does not necessarily show the whole picture. However, due to the number of categories and sectors being looked at, it was necessary to narrow down the number of graphs. A number of different existing and created cateogries did exhibit significant seasonality.
 
 - Detailed Customer Category = "Health & Community Services" and "Commerical/Corporate" , Project_Type = "Support" and "Implementation", and Customer_Size = "Small" had the most distinct visually observable seasonality.
 - These are sectors and categories of customers, revenue from whom can reliably be categorized as seasonal, and therefore plotted and planned around.
