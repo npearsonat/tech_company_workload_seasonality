@@ -63,7 +63,7 @@ I found that looking at seasonality score does not necessarily show the whole pi
 - These are sectors and categories of customers, revenue from whom can reliably be categorized as seasonal, and therefore plotted and planned around.
 - The client will want to shore up revenue in months where these customers will not be spending. 
 
-## Dependencies / Requirements
+### Dependencies / Requirements
 pandas
 
 numpy
